@@ -1,0 +1,18 @@
+header {
+  border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.h1_header {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  align-self: center;
+}
+
+header > img {
+  width: 125px;
+  height: 125px;
+}
