@@ -5,18 +5,48 @@ header {
   align-content: center;
 }
 
-.h1_header {
-  background-color: aquamarine;
-  align-self: center;
+/* getting John Rose to center in header */
+div.h1_name {
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
-h1 > img {
+.h1_header {
+  background-color: aquamarine;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+/* separated the header into two div elements */
+div.header_img > img {
   width: 100px;
   height: 120px;
+  align-self: flex-start;
 }
 
 article {
   display: flex;
-  align-items: center;
+  justify-content: space-around;
   background-color: cadetblue;
+  align-items: center;
+}
+
+.sidebar1,
+.sidebar2 {
+  border: solid blue 1px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  background-color: chartreuse;
+}
+
+section > h2 {
+  display: flex;
 }
